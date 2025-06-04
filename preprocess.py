@@ -1,6 +1,7 @@
 import re
 import nltk
 import spacy
+import pandas as pd
 from securespacy.tokenizer import custom_tokenizer
 from securespacy.patterns import add_entity_ruler_pipeline
 from textblob import TextBlob
@@ -96,11 +97,20 @@ def lemmatize_words(text):
     return " ".join([lemmatizer.lemmatize(w, pos="v") for w in words])
 
 
-def preprocess_text(data, columns, **kwargs):
+def preprocess_text(
+    data,
+    columns,
+    spelling_correction=False,
+    stopword_removal=True,
+    do_stemming=False,
+    do_lemmatizing=False,
+    suffix="orig",
+):
     if isinstance(columns, str):
         columns = [columns]
     for col in columns:
-        data[f"{col}_orig"] = data[col].astype(str)
+        if suffix is not None:
+            data[f"{col}_{suffix}"] = data[col].astype(str)
 
         def _process(text):
             txt = remove_html_tag(text)
@@ -114,19 +124,58 @@ def preprocess_text(data, columns, **kwargs):
             txt_preserved = remove_punctuation_preserving_entities(txt_preserved)
             txt_preserved = txt_preserved.lower()
 
-            if kwargs.get("correct_spelling", False):
+            if spelling_correction:
                 txt_preserved = correct_spelling(txt_preserved)
-            if kwargs.get("remove_stopwords", True):
+            if stopword_removal:
                 txt_preserved = remove_stopwords(txt_preserved)
-            if kwargs.get("do_stemming", False):
+            if do_stemming:
                 txt_preserved = stem_words(txt_preserved)
-            if kwargs.get("do_lemmatizing", False):
+            if do_lemmatizing:
                 txt_preserved = lemmatize_words(txt_preserved)
 
             txt_final = restore_entities(txt_preserved, preserved)
             return txt_final, keywords, labels
 
         results = data[col].fillna("").apply(lambda text: _process(text))
-        # unzip into two new columns
+        # unzip into new columns
         data[col], data[f"keywords"], data[f"labels"] = zip(*results)
     return data
+
+
+def split_into_sentences(data, column):
+    """
+    Splits text in the specified column into sentences and creates a new row for each sentence.
+    Returns a new DataFrame with sentences in place of the original text.
+    """
+    # Ensure column is string
+    data = data.copy()
+    data[column] = data[column].astype(str)
+    # Use NLTK's sentence tokenizer
+    data["sentence_list"] = data[column].apply(lambda x: nltk.sent_tokenize(x))
+    # Explode into separate rows
+    data = data.explode("sentence_list").reset_index(drop=True)
+    # Rename the sentence_list column back to original column name
+    data = data.drop(columns=[column])
+    data = data.rename(columns={"sentence_list": column})
+    return data
+
+
+# # -----------------------------------
+# # Example Usage
+# # -----------------------------------
+# if __name__ == "__main__":
+#     # Example DataFrame
+#     df = pd.DataFrame({
+#         'text': [
+#             "Hello world! This is a test. Let's see how it works.",
+#             "Another example: split me into sentences. And preprocess each one."
+#         ]
+#     })
+
+#     # 1) Split into sentences (new rows)
+#     df_sentences = split_into_sentences(df, 'text')
+
+#     # 2) Preprocess text (keywords and labels will be added)
+#     df_processed = preprocess_text(df_sentences, 'text', correct_spelling=False, remove_stopwords=True, do_stemming=False, do_lemmatizing=True)
+
+#     print(df_processed)

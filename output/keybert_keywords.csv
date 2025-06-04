@@ -1,0 +1,329 @@
+post_id,user,text,source,comment_id,text_orig,keywords,labels
+post001,TrainTravelerMax,struggle log train train service website,0,,Struggling to log into the train service website,set(),set()
+post001,TrainTravelerMax,load strangely browse access train login websites fine vpn,1,,"I tried accessing the train login page today but it just kept spinning without ever loading. Strangely, I can browse other websites just fine. I have a VPN running because of work, maybe that’s interfering?","{'today', 'vpn'}","{'protocol', 'date'}"
+post002,HomeOfficeSally,signal drop frequently,0,,Wi-Fi signal drops frequently when I move around the house,set(),set()
+post002,HomeOfficeSally,disconnect extremely slow wifi disconnect extremely room wifi disconnect,1,,"Whenever I go to the basement or the far end of the living room, my Wi-Fi keeps disconnecting or is extremely slow.",set(),set()
+post003,GamerGuy89,ping fine load websites online game load certain websites,0,,Ping is fine but I can't load certain websites or online games,{'ping'},{'tool'}
+post003,GamerGuy89,ping game servers servers low stable,1,,"My ping to the game servers is low and stable, but I can’t load some game features or web pages. Other internet stuff works normally.",{'ping'},{'tool'}
+post004,SmartphoneSusi,connect wifi internet,0,,Phone connected to Wi-Fi but no internet access,set(),set()
+post004,SmartphoneSusi,wifi try browse connect home wifi,1,,"My phone shows it’s connected to my home Wi-Fi, but when I try to browse or use apps, nothing loads. Other devices on the network work perfectly fine.",set(),set()
+post005,OfficePaul,desk wifi barely,0,,"After moving office desk, Wi-Fi barely works",set(),set()
+post005,OfficePaul,relocate desk suddenly suddenly wifi speed,1,,I relocated my desk and suddenly Wi-Fi speed dropped dramatically. Signal strength is weak compared to before.,set(),set()
+post006,TravelerJoe,access work ethernet,0,,"Internet access only works via Ethernet, not Wi-Fi",set(),set()
+post006,TravelerJoe,cable wifi connect online plug cable connect internet,1,,"I can get online when plugged in via cable, but Wi-Fi shows connected without internet.",set(),set()
+post007,RemoteWorkerAnna,disconnect randomly video,0,,VPN disconnects randomly during video calls,{'vpn'},{'protocol'}
+post007,RemoteWorkerAnna,conferences vpn connection,1,,"Whenever I join video conferences, my VPN connection drops every 10-15 minutes.","{'vpn', '10-15 minutes'}","{'protocol', 'time'}"
+post008,HomeUserBen,slow internet laptop,0,,Slow internet only on my laptop,{'laptop'},{'device'}
+post008,HomeUserBen,devices network fast fast laptop crawl network fast laptop,1,,"Other devices on my network are fast but my laptop is crawling. Tried restarting, no change.",{'laptop'},{'device'}
+post009,ITNewbieTom,router internet access ping router internet,0,,Can ping router but no internet access,"{'router', 'ping'}","{'device', 'tool'}"
+post009,ITNewbieTom,ping router ip ip fine browse,1,,I can ping my router IP just fine but can’t browse the web or access online services.,"{'router', 'ping'}","{'device', 'tool'}"
+post010,FreelancerLily,company intranet accessible,0,,Company intranet not accessible from home,set(),set()
+post010,FreelancerLily,company intranet page remotely rest internet,1,,"I can’t open the company intranet page when working remotely, but the rest of the internet works.",set(),set()
+post011,StudentSam,load university websites slow load university,0,,Slow loading on university websites,{'university'},{'malware'}
+post011,StudentSam,university sit load really slow sit,1,,"University sites load really slow, but other sites are fine.",{'university'},{'malware'}
+post012,DeveloperDave,storage fail intermittently upload cloud storage,0,,Uploads to cloud storage fail intermittently,set(),set()
+post012,DeveloperDave,cloud storage time file cloud storage,1,,"Sometimes when uploading large files to cloud storage, it just times out after a while.",set(),set()
+post013,RemoteNina,video conference audio conference audio wifi access video conference,0,,Can't access video conference audio on Wi-Fi,set(),set()
+post013,RemoteNina,drop distort connect distort connect wifi audio drop distort,1,,Video works fine but audio drops out or is distorted when connected to Wi-Fi.,set(),set()
+post014,OfficePaul,desk wifi barely,0,,"After moving office desk, Wi-Fi barely works",set(),set()
+post014,OfficePaul,relocate desk suddenly suddenly wifi speed,1,,I relocated my desk and suddenly Wi-Fi speed dropped dramatically. Signal strength is weak compared to before.,set(),set()
+post015,TechEnthusiastTina,connect access company access company servers vpn connect access,0,,VPN connected but no access to company servers,{'vpn'},{'protocol'}
+post015,TechEnthusiastTina,status connect reach vpn status connect reach internal resources,1,,VPN status shows connected but I can’t reach any internal resources.,{'vpn'},{'protocol'}
+post016,NetAdminNick,router reboot randomly reboot randomly peak,0,,Router reboots randomly during peak hours,"{'hours', 'router'}","{'time', 'device'}"
+post016,NetAdminNick,router restart day people log,1,,My router restarts every day around 5 PM when many people log on.,"{'router', 'every day'}","{'date', 'device'}"
+post017,HomeUserHelen,internet slow evenings,0,,Internet very slow only in evenings,set(),set()
+post017,HomeUserHelen,speed drop sharply drop sharply pm mornings fine,1,,"Speed drops sharply after 7 PM every day, but mornings are fine.",{'7 pm every day'},{'time'}
+post018,StudentSteve,open sit campus sit campus wifi,0,,Can't open some sites on campus Wi-Fi,set(),set()
+post018,StudentSteve,campus wifi phone mobile data work load campus wifi,1,,"Certain sites won’t load on campus Wi-Fi, but on my phone’s mobile data they work.",set(),set()
+post019,HomeUserGary,stream use repeater,0,,Slow streaming when using repeater,set(),set()
+post019,HomeUserGary,connect repeater directly video stream buffer,1,,"Video streaming buffers a lot when connected via repeater, but directly to router it’s fine.",{'router'},{'device'}
+post020,RemoteWorkerLiz,file share coworkers connect file share,0,,Wi-Fi connected but no file sharing with coworkers,set(),set()
+post020,RemoteWorkerLiz,access share folders share folders network connect wifi access,1,,My laptop connects to Wi-Fi but I can’t see or access shared folders on the network.,{'laptop'},{'device'}
+post021,TravelerJoe,access work ethernet,0,,"Internet access only works via Ethernet, not Wi-Fi",set(),set()
+post021,TravelerJoe,cable wifi connect online plug cable connect internet,1,,"I can get online when plugged in via cable, but Wi-Fi shows connected without internet.",set(),set()
+post022,GamerGalGina,high latency packet latency packet loss packet loss online,0,,High latency and packet loss during online gaming,{'latency'},{'network_concept'}
+post022,GamerGalGina,lag spike disconnect random lag spike,1,,I get random lag spikes and sometimes get disconnected.,set(),set()
+post023,OfficeWorkerWalt,corporate email sync email sync mobile,0,,Corporate email not syncing on mobile,{'email'},{'malware'}
+post023,OfficeWorkerWalt,sync corporate email im vpn wont sync corporate,1,,My phone won’t sync corporate emails unless I’m on VPN.,{'vpn'},{'protocol'}
+post024,HomeUserHanna,wifi drop microwave,0,,Wi-Fi drops whenever microwave is on,set(),set()
+post024,HomeUserHanna,speed drop disconnect microwave wifi speed,1,,"Whenever I use the microwave, Wi-Fi speeds drop or disconnect.",set(),set()
+post025,DeveloperDan,connect slow internet vpn connect slow,0,,VPN connected but slow internet,{'vpn'},{'protocol'}
+post025,DeveloperDan,connect vpn internet internet speed drop,1,,"When connected to VPN, my internet speed drops significantly.",{'vpn'},{'protocol'}
+post026,RemoteWorkerRachel,print network printer,0,,Can't print to network printer over Wi-Fi,{'printer'},{'device'}
+post026,RemoteWorkerRachel,laptop network printer connect ethernet,1,,My laptop can’t find the network printer unless I’m connected via Ethernet.,"{'printer', 'laptop'}",{'device'}
+post027,StudentSue,exams portal dorm portal dorm wifi online exams portal access online exams,0,,Can't access online exams portal from dorm Wi-Fi,set(),set()
+post027,StudentSue,portal doesnt load doesnt load sit,1,,"The portal doesn't load, but other sites are fine.",set(),set()
+post028,HomeUserHarry,slow wifi add new smart devices,0,,Slow Wi-Fi after adding new smart devices,{'slow wi-fi'},{'person'}
+post028,HomeUserHarry,bulbs cameras wifi smart bulbs cameras cameras wifi slow,1,,"Ever since I added new smart bulbs and cameras, my Wi-Fi has become slow.",set(),set()
+post029,FreelancerFiona,connect vpn coffee coffee shop wifi,0,,Can’t connect to VPN from coffee shop Wi-Fi,{'vpn'},{'protocol'}
+post029,FreelancerFiona,block vpn connections vpn connections workarounds public wifi block,1,,"Public Wi-Fi blocks VPN connections, any workarounds?",{'vpn'},{'protocol'}
+post030,RemoteNina,signal strong video,0,,Wi-Fi signal strong but video calls lag,set(),set()
+post030,RemoteNina,conferences freeze audio bar video conferences video conferences freeze,1,,Signal shows full bars but video conferences freeze and audio cuts out.,set(),set()
+post037,WinUserJake,ethernet connect internet connect internet access,0,,Ethernet shows connected but no internet access,set(),set()
+post037,WinUserJake,network try disablingenabling internet wifi work im connect ethernet,1,,"Windows says I'm connected via Ethernet, but there's no internet. Wi-Fi works fine on the same network. Tried disabling/enabling the adapter — no luck.",set(),set()
+post038,GamerMark,ping spike 30 spike 30 second 30 second windows,0,,Ping spikes every 30 seconds on Windows 11,"{'11', 'every 30 seconds', 'ping'}","{'time', 'cardinal', 'tool'}"
+post038,GamerMark,network service spike ping spike online,1,,Every 30–40 seconds I get a ping spike in online games. Task Manager shows 'Service Host: Network Service' spiking at the same time.,"{'every 30–40 seconds', 'ping'}","{'time', 'tool'}"
+post039,WorkLaptopWanda,disconnect wifi access vpn disconnect wifi,0,,VPN disconnects Wi-Fi access to everything else,{'vpn'},{'protocol'}
+post039,WorkLaptopWanda,connect company vpn vpn lose access company vpn lose,1,,"As soon as I connect to my company’s VPN, I lose access to all other internet — can’t browse, use Teams, etc.",{'vpn'},{'protocol'}
+post040,StreamerKyle,upload speed fine browser obs disconnect,0,,Upload speeds fine in browser but OBS keeps disconnecting,set(),set()
+post040,StreamerKyle,speedtest 20mbps upload,1,,Speedtest shows 20Mbps upload but OBS drops to 0 and disconnects every few minutes. On Windows 10 with wired Ethernet.,"{'20mbps', 'windows 10', '0', 'every few minutes'}","{'time', 'product', 'cardinal'}"
+post041,OfficeJeff,pc work phone specific website windows,0,,"Cannot access specific website on Windows PC, works on phone",set(),set()
+post041,OfficeJeff,windows desktop err_connection_timed_out,1,,"One site just won’t load on my Windows desktop (ERR_CONNECTION_TIMED_OUT), but works fine on my phone on the same network.","{'desktop', 'one'}","{'device', 'cardinal'}"
+post042,PowerUserPete,multiple network profile network profile cause,0,,Multiple network profiles causing weird behavior,set(),set()
+post042,PowerUserPete,network network adapter apps wont connect,1,,"My PC shows 'Network 2', 'Network 3', etc. in the adapter list and sometimes apps won't connect unless I reset the adapter.",set(),set()
+post043,DevMachineDave,settings reset reboot,0,,Proxy settings reset after every reboot,set(),set()
+post043,DevMachineDave,proxy windows settings restart super annoy disable proxy windows settings reenables restart,1,,"Even when I disable the proxy in Windows settings, it re-enables itself after a restart. Super annoying.",set(),set()
+post044,StudentSarah,say internet secure connect say internet,0,,"Wi-Fi connects but says 'No Internet, secured'",set(),set()
+post044,StudentSarah,windows connect school internet secure students connect school wifi,1,,"Windows connects to the school Wi-Fi but always says 'No Internet, secured'. Other students don’t have this issue.",set(),set()
+post045,EditorElla,google drive sync sync work windows,0,,"Google Drive sync not working on Windows, works on web",set(),set()
+post045,EditorElla,start windows update web version fine desktop say connection,1,,Drive for Desktop says 'No connection' but I can use the web version fine. This started after a Windows update.,{'desktop'},{'device'}
+post046,ITInternIan,network adapter disappear adapter disappear sleep disappear sleep mode,0,,Network adapter disappears after sleep mode,set(),set()
+post046,ITInternIan,sleep wifi adapter adapter device manager,1,,"After waking from sleep, my Wi-Fi adapter is just gone from Device Manager. Only a restart brings it back.",set(),set()
+post047,DigitalNomadLeo,wifi connect browse hotel wifi connect connect browse possible,0,,Hotel Wi-Fi connects but no browsing possible,{'hotel wi-fi'},{'person'}
+post047,DigitalNomadLeo,laptop connect hotel connect hotel wifi apps require internet,1,,"My laptop connects to the hotel Wi-Fi network, but I can't load any websites or use apps that require internet. Other guests say their devices work fine.",{'laptop'},{'device'}
+post048,CoderClara,vpn connection establish internal resources unreachable,0,,VPN connection established but internal resources unreachable,{'vpn'},{'protocol'}
+post048,CoderClara,vpn status connect connect access dev internal tool internet,1,,"VPN status shows connected, but I can’t access our dev servers or internal tools. My internet works fine otherwise.",{'vpn'},{'protocol'}
+post049,HomeUserJake,signal drop room,0,,Wi-Fi signal drops when moving between rooms,set(),set()
+post049,HomeUserJake,signal drop dramatically bedroom wifi signal,1,,"When I move from my living room to the bedroom, the Wi-Fi signal drops dramatically or disconnects completely.",set(),set()
+post050,OfficeLina,certain websites wont websites wont load load ping good,0,,Certain websites won’t load even though ping is good,{'ping'},{'tool'}
+post050,OfficeLina,ping websites like service time load,1,,"I can ping websites like google.com fine, but some specific sites or services time out or never load.","{'google.com', 'ping'}","{'domain', 'tool'}"
+post051,GamerDerek,connect internet game,0,,Wi-Fi shows connected but no internet on my gaming PC,set(),set()
+post051,GamerDerek,access internet devices connect wifi access devices network fine wifi access internet,1,,My PC is connected to Wi-Fi but can’t access the internet. Other devices on the same network are fine.,set(),set()
+post052,RemoteWorkerNina,disconnect video meetings,0,,VPN disconnects during video meetings,{'vpn'},{'protocol'}
+post052,RemoteWorkerNina,vpn connection drop zoom vpn connection,1,,"While on Zoom calls, my VPN connection drops after about 10 minutes, causing interruptions.","{'vpn', 'about 10 minutes'}","{'protocol', 'time'}"
+post053,StudentMatt,laptop internet slow internet slow phone,0,,Laptop internet slow but phones are fine,{'laptop'},{'device'}
+post053,StudentMatt,laptops internet speed compare phone wifi,1,,My laptop's internet speed is very slow compared to my phone on the same Wi-Fi network.,{'laptop'},{'device'}
+post054,ITNewbieOlga,router work internet,0,,"Ping to router works, but no internet access","{'router', 'ping'}","{'device', 'tool'}"
+post054,ITNewbieOlga,routers ip address load websites service,1,,I can ping my router’s IP address but can’t load any websites or services.,"{'router', 'ping'}","{'device', 'tool'}"
+post055,HomeUserTina,slow internet hours,0,,Slow internet only during evening hours,{'evening hours'},{'time'}
+post055,HomeUserTina,internet speed tank speed tank pm,1,,Internet speed tanks every evening around 7 PM but is fine during the day.,"{'every evening', '7 pm', 'the day'}","{'time', 'date'}"
+post056,OfficeWorkerMark,signal bar file file wont download,0,,Wi-Fi signal is full bars but files won’t download,{'n’t'},{'gpe'}
+post056,OfficeWorkerMark,strong wifi signal hang fail download large file hang laptop strong wifi,1,,"My laptop shows a strong Wi-Fi signal, but large files hang or fail to download.",{'laptop'},{'device'}
+post057,TravelerSam,hotel wifi require login login page,0,,Hotel Wi-Fi requires login but login page won’t load,{'hotel wi-fi'},{'person'}
+post057,TravelerSam,captive portal login wifi captive portal connect hotel wifi,1,,"I connect to the hotel Wi-Fi, but the captive portal login page never appears, so I can’t get online.",set(),set()
+post058,FreelancerKate,connect slow internet vpn connect slow,0,,VPN connects but slow internet speeds,{'vpn'},{'protocol'}
+post058,FreelancerKate,successfully internet speed vpn connect successfully speed drop unusable,1,,"My VPN connects successfully, but my internet speed drops to almost unusable levels.",{'vpn'},{'protocol'}
+post059,GamerLeo,ping spike despite high ping spike despite stable wifi,0,,High ping spikes despite stable Wi-Fi,{'ping'},{'tool'}
+post059,GamerLeo,wifi signal stable stable strong ping strong ping online,1,,"My Wi-Fi signal is stable and strong, but my ping in online games randomly spikes every few minutes.","{'every few minutes', 'ping'}","{'time', 'tool'}"
+post060,RemoteDevAnya,disconnect laptop sleep,0,,VPN disconnects when laptop sleeps,"{'vpn', 'laptop'}","{'protocol', 'device'}"
+post060,RemoteDevAnya,sleep vpn disconnect reconnect automatically wake,1,,"Whenever my laptop goes to sleep, the VPN disconnects and won’t reconnect automatically when I wake it.","{'vpn', 'laptop'}","{'protocol', 'device'}"
+post061,StudentRob,connect stream videos,0,,Wi-Fi connected but can’t stream videos,set(),set()
+post061,StudentRob,youtube netflix videos connect wifi youtube,1,,"My device shows connected to Wi-Fi, but YouTube and Netflix videos won’t load or buffer endlessly.","{'youtube', 'netflix'}","{'product', 'gpe'}"
+post062,OfficeJane,access company intranet company intranet vpn,0,,Can’t access company intranet over VPN,{'vpn'},{'protocol'}
+post062,OfficeJane,vpn connect fine company intranet internal,1,,"VPN connects fine, but I can’t reach our company intranet or internal websites.",{'vpn'},{'protocol'}
+post063,HomeUserDave,frequently disconnect windows,0,,Wi-Fi frequently disconnects on Windows laptop,{'laptop'},{'device'}
+post063,HomeUserDave,disconnect wifi randomly windows laptop disconnect,1,,My Windows laptop keeps disconnecting from Wi-Fi randomly even though signal is strong.,{'laptop'},{'device'}
+post064,DigitalNomadEva,wifi limit device limit device connections hotel wifi limit,0,,Hotel Wi-Fi limits device connections,{'hotel wi-fi'},{'person'}
+post064,DigitalNomadEva,hotel wifi allow phone laptop simultaneously,1,,Hotel Wi-Fi only allows one device connection per room; I want to connect my phone and laptop simultaneously.,"{'one', 'laptop', 'hotel wi-fi'}","{'device', 'cardinal', 'person'}"
+post065,RemoteWorkerLiam,slow file transfer vpn slow file file transfer drastically,0,,VPN slows down file transfers drastically,{'vpn'},{'protocol'}
+post065,RemoteWorkerLiam,transfer vpn longer,1,,File transfers over VPN take much longer than over my normal internet connection without VPN.,{'vpn'},{'protocol'}
+post066,StudentMaya,connect ip address,0,,Wi-Fi connects but can’t get IP address,set(),set()
+post066,StudentMaya,device connect wifi wifi ip address address access internet,1,,My device connects to Wi-Fi but shows ‘No IP address’ and can’t access the internet.,set(),set()
+post067,TravelerNina,wifi ask payment hotel wifi ask ask payment free payment free trial,0,,Hotel Wi-Fi asks for payment after free trial,{'hotel wi-fi'},{'person'}
+post067,TravelerNina,hotel wifi initially,1,,"I connected to hotel Wi-Fi that initially was free, but now it suddenly asks me to pay to continue using it.",set(),set()
+post068,GamerJosh,connect game location game location mismatch,0,,VPN connected but games show location mismatch,{'vpn'},{'protocol'}
+post068,GamerJosh,vpn game detect location block play,1,,"I use a VPN, but some games detect my real location and block me from playing.",{'vpn'},{'protocol'}
+post069,HomeUserKate,connect slow devices,0,,Wi-Fi connected but very slow on some devices,set(),set()
+post069,HomeUserKate,wifi slow buffer devices fast wifi buffer near router,1,,"Some of my devices have fast Wi-Fi, but others are slow or keep buffering even near the router.",{'router'},{'device'}
+post070,RemoteDevMax,drop connection video vpn drop connection,0,,VPN drops connection during video calls,{'vpn'},{'protocol'}
+post070,RemoteDevMax,video frequently drop frequently drop freeze,1,,"While on VPN, my video calls frequently drop or freeze randomly.",{'vpn'},{'protocol'}
+post071,StreamerLina,despite strong wifi strong wifi signal buffer issue despite,0,,Buffering issues despite strong Wi-Fi signal,set(),set()
+post071,StreamerLina,bar stream videos stream videos buffer wifi bar stream,1,,"My Wi-Fi shows full bars, but streaming videos keep buffering or drop quality suddenly.",set(),set()
+post072,OfficeUserDan,connect company resources company resources inaccessible vpn connect company,0,,VPN connects but company resources inaccessible,{'vpn'},{'protocol'}
+post072,OfficeUserDan,connect access internal vpn connect access,1,,My VPN shows connected but I can’t access internal files or apps from work.,{'vpn'},{'protocol'}
+post073,GamerZed,despite low ping low ping vpn game lag despite,0,,Games lag despite low ping on VPN,"{'vpn', 'ping'}","{'protocol', 'tool'}"
+post073,GamerZed,gameplay laggy input low ping gameplay ping gameplay laggy,1,,"I use VPN and get low ping, but gameplay is still laggy and input delays happen.","{'vpn', 'ping'}","{'protocol', 'tool'}"
+post074,TravelerAnna,wifi disconnect minutes hotel wifi disconnect,0,,Hotel Wi-Fi disconnects after a few minutes,"{'a few minutes', 'hotel wi-fi'}","{'time', 'person'}"
+post074,TravelerAnna,disconnect short time force reconnect,1,,"Every time I connect to hotel Wi-Fi, it disconnects after a short time, forcing me to reconnect.",set(),set()
+post075,RemoteWorkerLeo,slow internet despite vpn slow internet fast local wifi,0,,VPN slows down internet despite fast local Wi-Fi,{'vpn'},{'protocol'}
+post075,RemoteWorkerLeo,connect vpn internet local wifi speed internet speed drop,1,,"My local Wi-Fi speed is good, but when I connect to VPN, internet speed drops significantly.",{'vpn'},{'protocol'}
+post076,StudentMia,disconnect phone sleep,0,,Wi-Fi disconnects when phone goes to sleep,set(),set()
+post076,StudentMia,connection sleep interrupt interrupt download stream phone lose wifi,1,,"My phone loses Wi-Fi connection after it sleeps, which interrupts my downloads and streaming.",set(),set()
+post077,GamerPaul,connect geoblocked content geoblocked content unavailable,0,,VPN connected but geo-blocked content still unavailable,{'vpn'},{'protocol'}
+post077,GamerPaul,access georestricted game vpn active access,1,,"Even with VPN active, I can’t access some geo-restricted games or videos.",{'vpn'},{'protocol'}
+post078,HomeUserSam,signal strong page page load slowly,0,,Wi-Fi signal strong but pages load slowly,set(),set()
+post078,HomeUserSam,wifi signal strength websites apps forever,1,,"My Wi-Fi signal strength is great, but websites and apps take forever to load.",set(),set()
+post079,TravelerZoe,hotel wifi require login time reconnect,0,,Hotel Wi-Fi requires login every time I reconnect,{'hotel wi-fi'},{'person'}
+post079,TravelerZoe,come hotel wifi hotel wifi ask ask log annoy,1,,"Every time I leave and come back to the hotel Wi-Fi, it asks me to log in again, which is annoying.",set(),set()
+post080,RemoteDevMax,connection slow unstable unstable work hours,0,,VPN connection is slow and unstable during work hours,"{'vpn', 'hours'}","{'protocol', 'time'}"
+post080,RemoteDevMax,slow disconnect peak vpn slow disconnect disconnect peak hours,1,,My VPN is slow and keeps disconnecting during peak hours at work.,"{'vpn', 'hours'}","{'protocol', 'time'}"
+post081,StreamFanMike,connect stream videos videos buffer frequently,0,,VPN connected but streaming videos buffer frequently,{'vpn'},{'protocol'}
+post081,StreamFanMike,connect stream service buffer lower quality,1,,"Even though my VPN shows connected, streaming services keep buffering or lower quality automatically.",{'vpn'},{'protocol'}
+post082,OfficeClerkLara,company vpn connect access internal email,0,,Company VPN connects but no access to internal email,"{'vpn', 'email'}","{'protocol', 'malware'}"
+post082,OfficeClerkLara,internal email share vpn say connect,1,,VPN says connected but I can’t open internal emails or shared drives at all.,{'vpn'},{'protocol'}
+post083,MobileUserRaj,strong slow internet signal strong slow,0,,Wi-Fi signal strong but slow internet on phone,set(),set()
+post083,MobileUserRaj,webpages slow laggy strong wifi bar,1,,My phone shows strong Wi-Fi bars but loading apps and webpages is slow and laggy.,set(),set()
+post084,RemoteCoderNina,disconnect frequently cod,0,,VPN disconnects frequently during coding sessions,{'vpn'},{'protocol'}
+post084,RemoteCoderNina,vpn drop multiple day interrupt work,1,,"My VPN drops out multiple times during the day, interrupting my work.","{'vpn', 'the day'}","{'protocol', 'date'}"
+post085,GamerRex,cause high ping ping spike despite,0,,VPN causes high ping spikes despite low average latency,"{'vpn', 'ping', 'latency'}","{'protocol', 'tool', 'network_concept'}"
+post085,GamerRex,sudden spike lag ping average low,1,,"While my ping averages are low, I experience sudden spikes that lag my games.",{'ping'},{'tool'}
+post086,StudentLily,disconnect laptop sleep,0,,Wi-Fi disconnects when laptop goes to sleep,{'laptop'},{'device'}
+post086,StudentLily,wifi connection sleep lose wifi connection cause dropouts download,1,,"My laptop loses Wi-Fi connection whenever it sleeps, causing dropouts in downloads.",{'laptop'},{'device'}
+post087,TravelerMax,wifi log repeatedly hotel wifi log,0,,Hotel Wi-Fi keeps logging me out repeatedly,{'hotel wi-fi'},{'person'}
+post087,TravelerMax,wifi log multiple kick hotel wifi,1,,I keep getting kicked off the hotel Wi-Fi and have to log in again multiple times a day.,set(),set()
+post088,RemoteWorkerKate,slow afternoon work vpn slow afternoon afternoon work hours,0,,VPN slows down during afternoon work hours,"{'vpn', 'hours', 'afternoon'}","{'protocol', 'time'}"
+post088,RemoteWorkerKate,speed drop drastically hours affect productivity,1,,"VPN speeds drop drastically during afternoon peak hours, affecting my productivity.","{'vpn', 'hours', 'afternoon'}","{'protocol', 'time'}"
+post089,HomeUserAlex,websites slow despite slow despite wifi despite wifi bar,0,,Websites slow despite full Wi-Fi bars,set(),set()
+post089,HomeUserAlex,signal webpages apps,1,,Wi-Fi shows full signal but webpages and apps load painfully slow.,set(),set()
+post090,StreamerJess,connect georestricted content vpn connect georestricted,0,,VPN connected but geo-restricted content still blocked,{'vpn'},{'protocol'}
+post090,StreamerJess,access foreign stream vpn access foreign,1,,"I use VPN to access foreign streaming, but content stays blocked or shows error.",{'vpn'},{'protocol'}
+post098,NetUserAlex,cause frequent disconnections network driver update,0,,Network driver update causes frequent disconnections,set(),set()
+post098,NetUserAlex,ethernet driver connection update ethernet driver,1,,"Since updating my Ethernet driver, my connection drops every few minutes.",{'every few minutes'},{'time'}
+post099,RemoteWorkerJill,wifi driver update cause slow upload,0,,Wi-Fi driver update causes slow upload speeds,set(),set()
+post099,RemoteWorkerJill,wireless driver upload update wireless driver driver upload speed,1,,"After updating my wireless driver, my upload speeds dropped significantly.",set(),set()
+post100,GamerMike,driver update ping update ping spike,0,,"After network driver update, ping spikes in games",{'ping'},{'tool'}
+post100,GamerMike,adapter driver ping ping spike randomly,1,,"Ever since I updated my network adapter driver, my ping spikes randomly during online gaming.",{'ping'},{'tool'}
+post101,StreamerNina,network driver update cause video buffer,0,,Network driver update causes video buffering issues,set(),set()
+post101,StreamerNina,stream buffer instal video stream buffer latest wifi driver,1,,Video streams keep buffering after I installed the latest Wi-Fi driver.,set(),set()
+post102,RemoteDevLeo,disable vpn connections driver update disable,0,,Network driver update disables VPN connections,{'vpn'},{'protocol'}
+post102,RemoteDevLeo,network driver connect connect vpn anymore,1,,"After updating my network driver, I can't connect to VPN anymore.",{'vpn'},{'protocol'}
+post103,OfficeUserTom,prevent auto reconnect driver update prevent,0,,Wi-Fi driver update prevents auto reconnect,set(),set()
+post103,OfficeUserTom,auto reconnect save reconnect save wifi doesnt auto reconnect,1,,My laptop doesn't auto reconnect to saved Wi-Fi networks after updating the driver.,{'laptop'},{'device'}
+post104,HomeUserEva,driver update disable update disable lan ethernet driver update,0,,Ethernet driver update disables LAN sharing,{'lan'},{'network_concept'}
+post104,HomeUserEva,update ethernet driver share file lan ethernet driver pc,1,,"Since updating my Ethernet driver, my PC can't share files over LAN.",{'lan'},{'network_concept'}
+post105,TechStudentMaya,network driver update cause limit connectivity,0,,Network driver update causes limited connectivity,set(),set()
+post105,TechStudentMaya,update limit connectivity network driver update,1,,"After a network driver update, I get ‘limited connectivity’ on Wi-Fi.",set(),set()
+post106,StreamerAlex,network driver cause packet loss stream driver cause packet,0,,New network driver causes packet loss during streaming,set(),set()
+post106,StreamerAlex,driver experience packet adapter driver experience network adapter driver,1,,"Since updating my network adapter driver, I experience packet loss when streaming.",set(),set()
+post107,ITProJenna,break hotspot functionality network driver update,0,,Network driver update breaks hotspot functionality,set(),set()
+post107,ITProJenna,hotspot feature stop pc hotspot feature update wifi driver,1,,"After updating my Wi-Fi driver, my PC hotspot feature stopped working.",set(),set()
+post001,ITSupportAnna,vpns cause issue try turn check issue specific sit,2,c001,VPNs often cause issues with specific sites. Try turning it off and check again.,set(),set()
+post001,NetworkNils,cache cookies cause browser cache cookies,2,c002,Sometimes browser cache or cookies cause loading issues. Clear those and retry.,set(),set()
+post002,RouterFred,repeater relocate router router far wall wall block signal,2,c003,Your router might be too far or there could be walls blocking the signal. Consider adding a repeater or relocating the router.,{'router'},{'device'}
+post003,NetworkNils,try switch dns like dns problems,2,c004,Sounds like DNS problems. Try switching your DNS server to 8.8.8.8 or 1.1.1.1.,"{'dns', 'dns server', '1.1.1.1', '8.8.8.8'}","{'protocol', 'ip_address', 'ip', 'network_concept'}"
+post004,NetworkNils,conflict dns issue,2,c005,This often happens because of IP conflicts or DNS issues. Try reconnecting to the network.,{'dns'},{'protocol'}
+post004,RouterFred,filter router block address filter router,2,c006,Could also be a MAC address filter or router blocking the device.,"{'mac address', 'router'}","{'device', 'network_concept'}"
+post005,RouterFred,obstacles distance router distance router degrade,2,c007,Physical obstacles or distance to router can degrade signal. Try moving back or using a repeater.,{'router'},{'device'}
+post005,NetworkNils,interference nearby devices,2,c008,Also check for interference from nearby devices like microwaves or cordless phones.,set(),set()
+post006,NetworkNils,router dhcp settings dhcp settings possible,2,c009,Check router DHCP settings or possible MAC filtering.,"{'dhcp', 'router'}","{'protocol', 'device'}"
+post006,RouterFred,wifi isolation enable guest wifi isolation routers guest wifi,2,c010,"Sometimes routers have guest Wi-Fi isolation enabled, blocking internet.",set(),set()
+post007,ITSupportAnna,servers cause drop change vpn server,2,c011,"Try changing the VPN server or protocol, sometimes overloaded servers cause drops.","{'vpn', 'server'}","{'protocol', 'device'}"
+post007,NetworkNils,firewall antivirus interfere interfere vpn connections,2,c012,Check if your firewall or antivirus is interfering with VPN connections.,"{'vpn', 'firewall'}","{'protocol', 'device'}"
+post008,TechGuru,background update malware update malware laptop,2,c013,Check for background updates or malware on your laptop.,{'laptop'},{'device'}
+post008,NetworkNils,try update network reset network settings,2,c014,Try updating your network adapter drivers or resetting network settings.,set(),set()
+post009,NetworkNils,outage dns server,2,c015,Could be an ISP outage or DNS server issue. Try switching DNS or restarting the router.,"{'dns', 'dns server', 'router'}","{'protocol', 'device', 'network_concept'}"
+post010,ITSupportAnna,check firewall rule connect vpn check,2,c016,You might need to connect via VPN or check if firewall rules block access.,"{'vpn', 'firewall'}","{'protocol', 'device'}"
+post011,NetworkNils,congestion dns resolution issue specific domains,2,c017,Maybe network congestion or DNS resolution issues for those specific domains.,{'dns'},{'protocol'}
+post012,NetworkNils,unstable wifi mtu mtu size issue,2,c018,Could be unstable Wi-Fi or MTU size issues. Try using wired connection.,{'mtu'},{'configuration_setting'}
+post013,RouterFred,interference poor signal signal cause audio,2,c019,Wi-Fi interference or poor signal can cause audio problems. Try switching bands or moving closer.,set(),set()
+post014,RouterFred,obstacles distance router distance router degrade,2,c020,Physical obstacles or distance to router can degrade signal. Try moving back or using a repeater.,{'router'},{'device'}
+post014,NetworkNils,interference nearby devices,2,c021,Also check for interference from nearby devices like microwaves or cordless phones.,set(),set()
+post015,ITSupportAnna,try reconnecting vpn check vpn profile,2,c022,Try reconnecting the VPN or check your VPN profile and permissions.,{'vpn'},{'protocol'}
+post016,RouterFred,overheat firmware bug log update firmware,2,c023,Overheating or firmware bugs could cause this. Check logs and update firmware.,set(),set()
+post017,NetworkNils,congestion isp throttle throttle peak hours,2,c024,Network congestion or ISP throttling during peak hours.,set(),set()
+post018,NetworkNils,firewall block domains campus firewall block,2,c025,Campus firewall might be blocking those domains.,{'firewall'},{'device'}
+post019,RouterFred,repeaters halve bandwidth upgrade mesh wifi,2,c026,"Repeaters halve the bandwidth, consider upgrading to mesh Wi-Fi.",{'bandwidth'},{'network_concept'}
+post020,NetworkNils,discovery enable firewall enable firewall settings,2,c027,Check if network discovery is enabled and firewall settings.,{'firewall'},{'device'}
+post021,NetworkNils,router dhcp settings dhcp settings possible,2,c028,Check router DHCP settings or possible MAC filtering.,"{'dhcp', 'router'}","{'protocol', 'device'}"
+post021,RouterFred,wifi isolation enable guest wifi isolation routers guest wifi,2,c029,"Sometimes routers have guest Wi-Fi isolation enabled, blocking internet.",set(),set()
+post022,NetworkNils,interference overload network network use wire,2,c030,"Check for interference, overloaded network, or use wired connection.",set(),set()
+post023,ITSupportAnna,require vpn remote,2,c031,Email server might require VPN for remote access.,"{'server', 'email', 'vpn'}","{'protocol', 'device', 'malware'}"
+post024,RouterFred,cause 4ghz interference microwave cause 4ghz,2,c032,Microwaves cause 2.4GHz interference. Use 5GHz band if possible.,"{'5ghz', '2.4ghz'}",{'cardinal'}
+post025,NetworkNils,server load encryption encryption overhead cause,2,c033,VPN server load or encryption overhead could be the cause.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post026,NetworkNils,prevent printer discovery isolation different subnets,2,c034,Wi-Fi isolation or different subnets can prevent printer discovery.,{'printer'},{'device'}
+post027,NetworkNils,wifi block certain sit require vpn dorm wifi block,2,c035,Dorm Wi-Fi might block certain sites or require VPN.,{'vpn'},{'protocol'}
+post028,RouterFred,saturate network bandwidth devices saturate network,2,c036,Too many devices can saturate the network bandwidth.,{'bandwidth'},{'network_concept'}
+post029,ITSupportAnna,port 443 different try use vpn,2,c037,Try using VPN over port 443 or a different VPN protocol.,"{'vpn', '443'}","{'protocol', 'cardinal'}"
+post030,NetworkNils,congestion router qos limit video traffic router qos settings,2,c038,Could be network congestion or router QoS settings limiting video traffic.,"{'qos', 'router'}","{'configuration_setting', 'device'}"
+post037,NetTechNina,try ipconfig release custom dns try dns try ipconfig,2,c046,Check if the Ethernet adapter has a static IP or custom DNS. Also try `ipconfig /release` and `ipconfig /renew` from Command Prompt.,"{'dns', 'ipconfig'}","{'protocol', 'tool'}"
+post038,DriverDan,check realtek driver,2,c047,Sounds like a background service polling something. Try disabling Windows Update Delivery Optimization and check for Realtek driver issues.,set(),set()
+post039,NetAdminAlex,tunnel check use vpn use tunnel,2,c048,Your VPN might be using full tunneling. Check if 'Use default gateway on remote network' is checked in adapter properties.,"{'vpn', 'default gateway'}","{'protocol', 'network_concept'}"
+post040,StreamTechTina,nic driver issue update ethernet driver bitrate update ethernet,2,c049,"Could be packet shaping or NIC driver issue. Try lowering OBS bitrate, and update your Ethernet driver from manufacturer’s site, not Windows Update.",set(),set()
+post041,DNSDave,domains try disable antivirus apps block try flush dns,2,c050,Try flushing DNS (`ipconfig /flushdns`) and switching to 8.8.8.8. Some antivirus apps also block domains — try disabling temporarily.,"{'dns', '8.8.8.8', 'antivirus apps', 'ipconfig'}","{'protocol', 'ip', 'tool', 'person'}"
+post042,RegEditorRita,registry hkey_local_machinesoftwaremicrosoftwindows ntcurrentversionnetworklistprofiles profile registry hkey_local_machinesoftwaremicrosoftwindows,2,c051,You can clean up ghost network profiles from the registry under `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles`.,set(),set()
+post043,SecuritySue,malware domain policy sound like malware check internet settings,2,c052,Sounds like malware or a domain policy. Try checking the 'Internet Settings' in Group Policy Editor and scan with Malwarebytes.,set(),set()
+post044,HelpDeskHarry,theres captive portal try forget network,2,c053,Try forgetting the network and reconnecting. Also check if your MAC address is blocked or if there's a captive portal you’re missing.,{'mac address'},{'network_concept'}
+post045,SyncFixSam,reset drive app tls settings enable,2,c054,Try resetting the Drive app and clearing cached credentials. Also verify that TLS settings are enabled under Internet Options > Advanced.,set(),set()
+post046,DriverDan,settings drivers bug drivers bug sleep power settings drivers,2,c055,Try disabling 'Allow the computer to turn off this device to save power' in the adapter's power settings. Some drivers bug out after sleep.,set(),set()
+post047,NetworkNils,nonhttps site disconnectreconnect captive portal ip portal ip conflict,2,c056,Sounds like a captive portal or IP conflict. Try opening a non-https site or disconnect/reconnect to force login.,"{'https', 'ip conflict'}","{'protocol', 'network_concept'}"
+post048,ITSupportAnna,vpn split tunnel settings confirm vpn vpn profile permissions,2,c057,Check your VPN split tunneling settings or confirm your VPN profile permissions.,{'vpn'},{'protocol'}
+post049,RouterFred,mesh wifi extender router placement poor,2,c058,Sounds like the router placement is poor or there are obstacles. Consider a mesh system or Wi-Fi extender.,{'router'},{'device'}
+post050,NetworkNils,firewall block domains switch public dns domains try switch,2,c059,Could be DNS or firewall blocking those domains. Try switching to public DNS like 8.8.8.8.,"{'dns', '8.8.8.8', 'firewall'}","{'protocol', 'device', 'ip'}"
+post051,NetworkNils,issue ip conflict dhcp issue ip,2,c060,This could be a DHCP issue or IP conflict. Try releasing and renewing your IP.,"{'dhcp', 'ip conflict'}","{'protocol', 'network_concept'}"
+post052,ITSupportAnna,different vpn server check antivirus interference,2,c061,"Try switching to a different VPN server or protocol, and check for antivirus interference.","{'vpn', 'server'}","{'protocol', 'device'}"
+post053,TechGuru,background update malware,2,c062,"Look for background updates or malware. Also, update network drivers or reset network settings.",set(),set()
+post054,NetworkNils,issue dns misconfiguration,2,c063,This might be an ISP issue or DNS misconfiguration. Try rebooting your router or changing DNS servers.,"{'dns', 'router'}","{'protocol', 'device'}"
+post055,NetworkNils,congestion isp throttle,2,c064,Likely network congestion or ISP throttling during peak times.,set(),set()
+post056,RouterFred,switch ghz ghz band check interference,2,c065,"Try switching between 2.4 GHz and 5 GHz bands, or check for interference.","{'5', 'between 2.4'}",{'cardinal'}
+post057,NetworkNils,ip trigger portal manually enter router open nonhttps site,2,c066,Try opening a non-https site like http://neverssl.com or manually enter the router IP to trigger the portal.,"{'https', 'router', 'http://neverssl.com'}","{'protocol', 'device', 'url'}"
+post058,ITSupportAnna,try change vpn vpn protocol improve change vpn use far server,2,c067,Check if your VPN is set to use a far server location or try changing VPN protocol to improve speed.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post059,NetworkNils,interference network congestion connection different wifi different wifi channel,2,c068,Could be interference or network congestion; try switching to a wired connection or different Wi-Fi channel.,{'channel'},{'malware'}
+post060,ITSupportAnna,adapter sleep check vpn client autoreconnect network adapter sleep power settings prevent,2,c069,Adjust your power settings to prevent the network adapter from sleeping or check VPN client auto-reconnect options.,"{'vpn', 'client'}","{'protocol', 'device'}"
+post061,RouterFred,clear dns cache different dns dns cache switch google dns,2,c070,Try clearing your DNS cache or switching to a different DNS provider like Google DNS.,{'dns'},{'protocol'}
+post062,ITSupportAnna,split tunnel enable enable vpn profile,2,c071,Check if split tunneling is enabled or if your VPN profile has access rights to internal resources.,{'vpn'},{'protocol'}
+post063,TechGuru,drivers disable powersaving powersaving feature wireless wifi drivers disable,2,c072,Update your Wi-Fi drivers and disable any power-saving features on the wireless adapter.,set(),set()
+post064,NetworkNils,create hotspot connect hotspot connect request allow multiple devices,2,c073,"You can use your laptop to create a hotspot after connecting, or request the hotel to allow multiple devices.",{'laptop'},{'device'}
+post065,ITSupportAnna,encryption overhead slow faster vpn server,2,c074,VPN encryption overhead can slow transfers; try a faster VPN server or adjust transfer protocol settings.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post066,NetworkNils,try renew ip dhcp enable router check dhcp enable lease reboot router,2,c075,Try renewing your IP lease or rebooting your router; also check if DHCP is enabled on the router.,"{'dhcp', 'router'}","{'protocol', 'device'}"
+post067,NetworkNils,hotels offer limit check wifi term,2,c076,Sometimes hotels offer limited free time; check the Wi-Fi terms or ask the front desk for a paid plan.,set(),set()
+post067,TravelerMike,issue month desk need buy package,2,c077,"I had the same issue last month. The front desk told me the first hour is free, then you need to buy a package.","{'the first hour', 'last month'}","{'time', 'date'}"
+post067,TechieSally,free wifi longer tether phone instead,2,c078,"If you need free Wi-Fi for longer, maybe tether from your phone instead, to avoid these extra charges.",set(),set()
+post068,ITSupportAnna,change vpn servers use stealth vpn vpn protocol avoid,2,c079,Try changing VPN servers or use a stealth VPN protocol to avoid location detection.,{'vpn'},{'protocol'}
+post068,GameDevTom,use gps location set match vpn gps location settings,2,c080,Some games use GPS or system location settings; make sure those are disabled or set to match the VPN.,{'vpn'},{'protocol'}
+post068,VPNUserLily,vpn bypass check dedicate game vpn,2,c081,I had to switch to a dedicated gaming VPN to bypass these checks.,"{'switch', 'vpn'}","{'protocol', 'device'}"
+post069,TechGuru,adapters interference verify check outdated wifi,2,c082,Check for outdated Wi-Fi adapters or interference; also verify device settings and firmware updates.,set(),set()
+post069,NetworkNils,newer wifi standards settings slow devices,2,c083,Sometimes older devices can’t handle newer Wi-Fi standards; try resetting network settings on slow devices.,set(),set()
+post069,HomeUserKate,update background slow apps run update background slow speed,2,c084,I also noticed that some apps run updates in background which slow down speed on some devices.,set(),set()
+post070,ITSupportAnna,vpn server overload overload unstable internet,2,c085,This might be due to VPN server overload or unstable internet; try switching servers or protocols.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post070,NetworkNils,throttle vpn traffic vpn traffic different check isp throttle,2,c086,Check if your ISP throttles VPN traffic; a different VPN provider or protocol might help.,{'vpn'},{'protocol'}
+post070,RemoteDevMax,switch udp tcp tcp protocol vpn vpn help stabilize,2,c087,I found that switching from UDP to TCP protocol on my VPN helped stabilize video calls.,"{'tcp', 'udp', 'vpn'}",{'protocol'}
+post071,TechGuru,congestion isp throttle strong signal doesnt,2,c088,Strong signal doesn’t always mean good speed. Check for network congestion or ISP throttling.,set(),set()
+post071,StreamerLina,bandwidth network limit heavy bandwidth network,2,c089,I didn’t realize others were using heavy bandwidth on my network until I limited devices.,{'bandwidth'},{'network_concept'}
+post072,ITSupportAnna,vpn connect miss permissions internal network,2,c090,Your VPN might be connected but missing the right routes or permissions for internal network access.,{'vpn'},{'protocol'}
+post072,OfficeUserDan,contact push update update vpn configs,2,c091,I contacted IT and they had to push updated VPN configs to fix the routing.,{'vpn'},{'protocol'}
+post073,GameDevTom,ping measure latency latency packet loss despite low ping jitter cause lag,2,c092,Ping only measures latency; packet loss or jitter can still cause lag despite low ping.,"{'jitter', 'ping', 'latency'}","{'tool', 'network_concept'}"
+post073,GamerZed,switch vpn servers packet loss improve,2,c093,"Switching VPN servers helped reduce packet loss, improving my gameplay.",{'vpn'},{'protocol'}
+post074,NetworkNils,hotels limit session session length number,2,c094,Hotels often limit session length or number of devices; ask front desk if there’s a time limit.,set(),set()
+post074,TravelerAnna,sign help temporarily longer work sessions temporarily annoy longer,2,c095,I found that signing in again helped temporarily but it’s annoying for longer work sessions.,set(),set()
+post075,TechieSally,closer vpn server encryption rout slow,2,c096,VPN encryption and routing can slow speeds; try a closer VPN server or a faster protocol.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post075,RemoteWorkerLeo,wireguard protocol noticeable,2,c097,Switching to WireGuard protocol gave me a noticeable speed boost.,set(),set()
+post076,NetworkNils,settings disable wifi phone powersaving settings,2,c098,Check your phone’s power-saving settings; some disable Wi-Fi when the screen is off.,set(),set()
+post076,StudentMia,battery optimization wifi wifi fix problem,2,c099,Turning off battery optimization for Wi-Fi fixed the problem for me.,set(),set()
+post077,VPNUserLily,blacklist know vpn game service blacklist ips try switch,2,c100,Streaming and gaming services often blacklist known VPN IPs. Try switching servers frequently.,"{'vpn', 'ips'}","{'protocol', 'malware'}"
+post077,GamerPaul,subscribe premium vpn specifically support stream premium vpn specifically,2,c101,I had to subscribe to a premium VPN that specifically supports streaming.,{'vpn'},{'protocol'}
+post078,TechGuru,strong wifi signal isp issue bandwidth internet speed check,2,c102,Strong Wi-Fi signal doesn’t always mean good internet speed; check for ISP issues or bandwidth hogs.,{'bandwidth'},{'network_concept'}
+post078,HomeUserSam,modem speed improve reboot modem speed,2,c103,"After rebooting my modem, the speed improved significantly.",{'modem'},{'device'}
+post079,NetworkNils,portals require reauthentication require reauthentication disconnection captive portals require,2,c104,Many hotel networks use captive portals that require re-authentication after disconnection.,set(),set()
+post079,TravelerZoe,use hotspot device hotspot device avoid,2,c105,I started using a hotspot device to avoid the hassle.,set(),set()
+post080,ITSupportAnna,vpn servers congest peak time try peak hours,2,c106,VPN servers can get congested during peak times; try connecting outside peak hours or use a different server.,"{'vpn', 'hours', 'server'}","{'protocol', 'device', 'time'}"
+post080,RemoteDevMax,dedicate vpn server,2,c107,Switching to a dedicated VPN server improved my stability.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post081,NetExpertJen,servers different vpn different vpn provider,2,c108,"VPN servers can get overloaded, causing slowdowns. Try switching servers or a different VPN provider.",{'vpn'},{'protocol'}
+post081,StreamFanMike,server help stream stream drop quality change nearby server,2,c109,"Changing to a nearby server helped, but some streams still drop quality occasionally.",{'server'},{'device'}
+post082,ITSupportAnna,inside vpn check permissions dns resolution,2,c110,Sounds like a permissions or DNS resolution issue inside the VPN; check with your IT team.,"{'dns', 'vpn'}",{'protocol'}
+post082,OfficeClerkLara,update laptop work dns update laptop push dns update,2,c111,"They had to push a DNS update to my laptop, after which everything worked fine.","{'dns', 'laptop'}","{'protocol', 'device'}"
+post083,NetworkNils,phone connect 4ghz reconnecting right band 5ghz available try,2,c112,Phones sometimes connect to 2.4GHz even if 5GHz is available; try forgetting and reconnecting to the right band.,"{'5ghz', '2.4ghz'}","{'org', 'cardinal'}"
+post083,MobileUserRaj,switch 5ghz fix,2,c113,Switching to 5GHz fixed the speed issues completely.,{'5ghz'},{'cardinal'}
+post084,ITSupportAnna,vpn instability cause aggressive firewall settings,2,c114,VPN instability can be caused by poor network or aggressive firewall settings.,"{'vpn', 'firewall'}","{'protocol', 'device'}"
+post084,RemoteCoderNina,change vpn protocols disable firewall rule,2,c115,Disabling some firewall rules and changing VPN protocols helped me stay connected.,"{'vpn', 'firewall'}","{'protocol', 'device'}"
+post085,GameDevTom,vpn rout unstable latency spike mean jitter packet loss,2,c116,Latency spikes often mean jitter or packet loss; VPN routing may be unstable.,"{'vpn', 'jitter', 'latency'}","{'protocol', 'network_concept'}"
+post085,GamerRex,different vpn server,2,c117,Switching to a different VPN server improved the consistency.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post086,NetworkNils,wifi adapter sleep power management settings settings turn wifi,2,c118,Power management settings might be turning off your Wi-Fi adapter when sleeping.,set(),set()
+post086,StudentLily,disable power save power save wifi save wifi card,2,c119,I disabled power saving on the Wi-Fi card and it fixed the issue.,set(),set()
+post087,NetworkNils,network session time wifi network session hotel wifi network,2,c120,Many hotel Wi-Fi networks have session time limits or device limits.,set(),set()
+post087,TravelerMax,hotspot solve connectivity personal hotspot solve,2,c121,Using a personal hotspot solved my connectivity headaches.,set(),set()
+post088,TechieSally,switch servers time vpn server overload overload peak time,2,c122,VPN server overload during peak times is common; switching servers or times might help.,"{'vpn', 'server'}","{'protocol', 'device'}"
+post088,RemoteWorkerKate,make vpn usable switch popular server,2,c123,Switching to a less popular server made my VPN usable again.,"{'server', 'vpn'}","{'protocol', 'device'}"
+post089,TechGuru,bandwidth isp issue,2,c124,Check if other devices are using lots of bandwidth or if your ISP is having issues.,{'bandwidth'},{'network_concept'}
+post089,HomeUserAlex,reboot router clear router clear slow,2,c125,Rebooting the router cleared the slow loading for me.,{'router'},{'device'}
+post090,VPNUserLily,vpn ips try block know vpn servers premium vpns,2,c126,Streaming platforms often block known VPN IPs; try rotating servers or premium VPNs.,"{'vpn', 'ips'}","{'protocol', 'malware'}"
+post090,StreamerJess,upgrade streamingoptimized vpn streamingoptimized vpn fix vpn fix issue,2,c127,Upgrading to a streaming-optimized VPN fixed the issue.,{'vpn'},{'protocol'}
+post098,TechSupportLisa,uninstalling driver completely,2,c141,Try uninstalling the driver completely and reinstalling an older stable version.,set(),set()
+post098,NetUserAlex,driver solve disconnect revert old driver,2,c142,"Reverting to the old driver solved the disconnects, thanks!",set(),set()
+post099,NetworkGuru,drivers bug check check patch rollback,2,c143,Sometimes new drivers have bugs; check for patches or rollback.,set(),set()
+post099,RemoteWorkerJill,driver speed normal,2,c144,Rolled back the driver and speeds are back to normal.,set(),set()
+post100,GameTech,disable power save,2,c145,Try disabling power saving options in the driver settings.,set(),set()
+post100,GamerMike,reduce ping spike disable power save,2,c146,Disabling power saving helped reduce the ping spikes. Thanks!,{'ping'},{'tool'}
+post101,StreamingExpert,drivers qos settings,2,c147,Check your network driver’s QoS settings; sometimes they get reset.,{'qos'},{'configuration_setting'}
+post101,StreamerNina,adjust qos settings settings fix buffer fix buffer problems,2,c148,Adjusting QoS settings fixed the buffering problems.,{'qos'},{'configuration_setting'}
+post102,VPNGuru,driver compatibility issue issue vpn protocols,2,c149,Check if the new driver has compatibility issues with VPN protocols.,{'vpn'},{'protocol'}
+post102,RemoteDevLeo,restore vpn connectivity previous driver restore,2,c150,Switching back to the previous driver restored VPN connectivity.,{'vpn'},{'protocol'}
+post103,ITSupport,try reset network network adapter forgetreconnect,2,c151,Try resetting the network adapter and forget/reconnect the Wi-Fi network.,set(),set()
+post103,OfficeUserTom,auto reconnect issue,2,c152,Resetting fixed the auto reconnect issue.,set(),set()
+post104,NetworkAdminPaul,check network discovery settings disable update network discovery file,2,c153,Check if network discovery and file sharing settings got disabled after the update.,set(),set()
+post104,HomeUserEva,settings restore lan reenabling settings restore,2,c154,Re-enabling those settings restored LAN sharing.,{'lan'},{'network_concept'}
+post105,WiFiPro,flush dns reset reset tcpip stack dns reset tcpip,2,c155,Try flushing DNS and resetting TCP/IP stack after updating drivers.,"{'dns', 'tcp'}",{'protocol'}
+post105,TechStudentMaya,flush dns reset reset fix connectivity,2,c156,Flushing DNS and resetting fixed the connectivity issue.,{'dns'},{'protocol'}
+post106,NetworkTech,packet loss driverrelated large send offload,2,c157,Packet loss can be driver-related; try disabling advanced features like Large Send Offload.,set(),set()
+post106,StreamerAlex,feature stop packet packet loss thank,2,c158,Disabling that feature stopped the packet loss. Thanks!,set(),set()
+post107,SupportGuy,check update disable disable host network network feature driver,2,c159,Check if the update disabled the hosted network feature in the driver.,set(),set()
+post107,ITProJenna,properties fix hotspot network driver properties enable host network,2,c160,Enabling hosted network in driver properties fixed the hotspot.,set(),set()

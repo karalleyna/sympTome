@@ -1,0 +1,4 @@
+__pycache__
+.env
+securespacy
+.vector_cache

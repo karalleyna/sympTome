@@ -1,0 +1,11 @@
+segment,node_type,post_id,comment_id,source,labels,text_orig,keywords
+struggle log train,0,post001,,0,set(),Struggling to log into the train service website,"{'website', 'service', 'struggle', 'train', 'log'}"
+train service,1,post001,,0,set(),Struggling to log into the train service website,"{'website', 'service', 'struggle', 'train', 'log'}"
+service website,2,post001,,0,set(),Struggling to log into the train service website,"{'website', 'service', 'struggle', 'train', 'log'}"
+load strangely browse access train login websites fine,0,post001,,1,"{'date', 'protocol'}","I tried accessing the train login page today but it just kept spinning without ever loading. Strangely, I can browse other websites just fine. I have a VPN running because of work, maybe that’s interfering?","{'fine', 'train', 'browse', 'access', 'websites', 'vpn', 'login', 'strangely', 'load'}"
+vpn,1,post001,,1,"{'date', 'protocol'}","I tried accessing the train login page today but it just kept spinning without ever loading. Strangely, I can browse other websites just fine. I have a VPN running because of work, maybe that’s interfering?","{'fine', 'train', 'browse', 'access', 'websites', 'vpn', 'login', 'strangely', 'load'}"
+vpns cause issue,0,post001,c001,2,set(),VPNs often cause issues with specific sites. Try turning it off and check again.,"{'sit', 'vpns', 'turn', 'cause', 'try', 'check', 'issue', 'specific'}"
+try turn check issue,2,post001,c001,2,set(),VPNs often cause issues with specific sites. Try turning it off and check again.,"{'sit', 'vpns', 'turn', 'cause', 'try', 'check', 'issue', 'specific'}"
+specific sit,1,post001,c001,2,set(),VPNs often cause issues with specific sites. Try turning it off and check again.,"{'sit', 'vpns', 'turn', 'cause', 'try', 'check', 'issue', 'specific'}"
+cache cookies cause,0,post001,c002,2,set(),Sometimes browser cache or cookies cause loading issues. Clear those and retry.,"{'cause', 'cache', 'cookies', 'browser'}"
+browser cache cookies,1,post001,c002,2,set(),Sometimes browser cache or cookies cause loading issues. Clear those and retry.,"{'cause', 'cache', 'cookies', 'browser'}"

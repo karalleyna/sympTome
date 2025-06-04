@@ -1,0 +1,28 @@
+name: symp
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pandas
+  - nltk
+  - textblob
+  - numpy
+  - scikit-learn
+  - gensim
+  - sentence-transformers
+  - pytorch
+  - torchvision
+  - transformers
+  - torchtext
+  - matplotlib
+  - seaborn
+  - contractions
+  - tqdm
+  - black
+  - symspellpy
+  - bs4
+  - unidecode
+  - fuzzywuzzy
+  - openai

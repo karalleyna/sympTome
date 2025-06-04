@@ -1,0 +1,19 @@
+[
+  {
+    "post_id": "post001",
+    "user": "TrainTravelerMax",
+    "title": "Struggling to log into the train service website",
+    "description": "I tried accessing the train login page today but it just kept spinning without ever loading. Strangely, I can browse other websites just fine. I have a VPN running because of work, maybe that’s interfering?",
+    "comments": [
+      {
+        "user": "ITSupportAnna",
+        "comment_id": "c001",
+        "text": "VPNs often cause issues with specific sites. Try turning it off and check again."
+      },
+      {
+        "user": "NetworkNils",
+        "comment_id": "c002",
+        "text": "Sometimes browser cache or cookies cause loading issues. Clear those and retry."
+      }
+]}
+]
